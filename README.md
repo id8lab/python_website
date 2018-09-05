@@ -85,7 +85,8 @@ to learn more about python and Flask development
 ### use database
 Start by installing Sqlite
 ```bash
-$ sudo apt-get install sqlite
+$ sudo apt-get update.
+$ sudo apt-get install sqlite3 libsqlite3-dev
 ```
 ---
 
@@ -94,3 +95,7 @@ Next session we will deploy the website to the server and setup an nginx server 
 ### rsync your code to your server
 
 ### setup the website to be served under nginx
+
+---
+### First website
+In the folder "First website" you will be able to find the structure for a flask website project.
